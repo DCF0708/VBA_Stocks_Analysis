@@ -1,4 +1,4 @@
-# VBA Challenge: Stocks Analysis
+# VBA Challenge: Stocks Analysis (MarkdownMonster Format)
 
 ## Project Overview
 
@@ -26,4 +26,4 @@
 Screenshots reveal that the refactored *Challenge code* runs approximately ***8.7 times faster*** than the *Module 2* code on the same data set. As the data set grows, so will the difference between the times. 
 
 ## Closing Statements
-Refactoring code is the best way to assure the codes' efficiency and longevity. There are quite literally zero downsides to refactoring. The programmer becomes more acquainted with the code which in turn allows for more time to discover optimizations resulting in a cleaner running easier to read code. Refactoring means Steve can now approach new clients backed with effective data and confidence in the programs' ability to handle vast data sets in a timely manor. *Module 2* code was a means to accomplish the short term goals set by the user, this acted as the road map to accomplish the long term goal of handling bigger client's data. 
+Refactoring code is the best way to assure the codes' efficiency and longevity. The programmer becomes more acquainted with the code which in turn allows for more time to discover optimizations resulting in a clean-running easier to read code. Refactoring means Steve can now approach new clients backed with effective data and confidence in the programs' ability to handle vast data sets in a timely manor. *Module 2* code was a means to accomplish the short term goals set by the user, this acted as the road map to accomplish the long term goal of handling bigger client's data. The only downside to refactoring applies to this project as well as coding in general. Refactoring is a time consuming process that can many times lack a definite indicator of just how long it may take. This could present an issue for extremely time-sensitive projects, however proper exercise of time management and scope analysis can do a great deal to shed light on what needs to be done. 
