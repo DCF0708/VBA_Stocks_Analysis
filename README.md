@@ -12,22 +12,22 @@
   
   A quick look at the *Module 2* code reveals multiple areas that are sub-optimal. Primarily, there is an embedded for loop that combs painstakingly through the data 12 times. Below is a picture that highlights both the outer loop and inner loop. The outer loop is hard coded to iterate through the total number of tickers specific to this data set. The inner loop then combs through the entire data set line-by-line and adds values for volume, starting price, and ending price if the ticker matches the current iterator. 
   
-  ![](VBA_Original_code.png)
+  ![](/Images/VBA_Original_code.png)
   
   This process can be improved by creating arrays for storage of **total daily volume** by ticker, **ticker starting prices**, and **ticker ending prices** to calculate return. This allows us to modify the for loop to only loop through the data once and iterate through the tickers within the for loop. The beginning and end of the for loop are underlined in red, and the arrays are underlined in blue followed by how the values are appended. 
   
-  ![](VBA_Challenge_code.png)
+  ![](/Images/VBA_Challenge_code.png)
   
   Modifying the 'for loop' to loop through the code only once and store all the values in arrays rather than iterating through the entire data set 12 times allows huge data sets to be analyzed in the most efficient way possible. Plugging a large data set into the *Module 2* code would result in monstrous wait time compared to the refactored *Challenge code*. This is exemplified in the screenshots of the run times collected at the end of the analyses of the *Module 2* code vs the *Challenge code*. **Note: the data set used constitutes a relatively small example of what could possibly be required by a client.**
   
 #### 
-  ![](VBA_Original_2017.png)
-  ![](VBA_Original_2018.png)
+  ![](/Images/VBA_Original_2017.png)
+  ![](/Images/VBA_Original_2018.png)
   
 #### **Above: Results and run times for *Module 2* (2017 top / 2018 bottom)**
 #### 
-  ![](VBA_Challenge_2017.png)
-  ![](VBA_Challenge_2018.png)
+  ![](/Images/VBA_Challenge_2017.png)
+  ![](/Images/VBA_Challenge_2018.png)
 #### 
 #### **Above: Results and run times for *Challenge* (2017 top / 2018 bottom)**
 #### 
